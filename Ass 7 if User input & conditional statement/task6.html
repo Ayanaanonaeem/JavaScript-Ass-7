@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var mark1=+prompt('enter marks 1');
+        var mark2=+prompt('enter marks 2');
+        var mark3=+prompt('enter marks 3');
+        var totalmarks=300;
+        var gainmarks=mark1+mark2+mark3;
+        var percent=gainmarks/totalmarks*100;
+        if (percent>=80) {
+            
+            
+            document.write('Total marks : '+totalmarks+'<br>')
+            document.write('Marks obtained : '+gainmarks+'<br>')
+            document.write('Percentage : '+percent+'<br>')
+            document.write('Grade : A-one <br>')
+            document.write('Remarks : Excellent')
+            
+        } else if (percent>=70) {
+            document.write('Total marks : '+totalmarks+'<br>')
+            document.write('Marks obtained : '+gainmarks+'<br>')
+            document.write('Percentage : '+percent+'<br>')
+            document.write('Grade : A <br>')
+            document.write('Remarks : good')
+        } 
+         else if (percent>=60) {
+            document.write('Total marks : '+totalmarks+'<br>')
+            document.write('Marks obtained : '+gainmarks+'<br>')
+            document.write('Percentage : '+percent+'<br>')
+            document.write('Grade : B <br>')
+            document.write('Remarks : You need improvement <br>')
+        } 
+         else if (percent<60) {
+            document.write('Total marks : '+totalmarks+'<br>')
+            document.write('Marks obtained : '+gainmarks+'<br>')
+            document.write('Percentage : '+percent+'<br>')
+            document.write('Grade : fail <br>')
+            document.write('Remarks : Sorry <br>')
+            
+        } 
+        else {
+            
+        }
+
+    </script>
+</body>
+</html>
